@@ -11,7 +11,7 @@ Thumbs.db
 
 .ipynb_checkpoints/
 
-data/*.csv
+# data/*.csv
 !data/README.md
 
 results/
