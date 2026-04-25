@@ -63,10 +63,12 @@ X_i: covariates (age, bed net use, treatment status, vegetation index, health ce
 
 ## Key Outcomes
 
-- Quantified effects of demographic and environmental predictors on malaria risk  
-- Identified villages with statistically elevated residual risk  
-- Demonstrated improved modeling of geographic variation relative to baseline logistic regression  
-- Produced interpretable posterior uncertainty for all parameters  
+- Estimated malaria prevalence at 35.7% across 2,035 children in 65 villages  
+- Identified substantial geographic variation, with village-level infection rates ranging from 0.0 to 0.93  
+- Quantified protective effects of key interventions, including bed net use (48.5% → 30.5%) and treatment (39.3% → 26.4%)  
+- Showed that baseline logistic regression fails to capture spatial heterogeneity, motivating the use of hierarchical modeling  
+- Detected villages with elevated residual malaria risk after controlling for observed covariates  
+- Produced full posterior distributions for all parameters, enabling uncertainty quantification and interpretable inference  
 
 ## Skills Demonstrated
 
@@ -117,8 +119,3 @@ x, y, pos, age, netuse, treated, green, phc
 
 Run:
 python run_analysis.py
-
-## Resume Bullets
-
-- Built a Bayesian hierarchical logistic regression model in Python to analyze malaria risk, capturing both individual-level predictors and village-level random effects.  
-- Compared baseline and Bayesian models to identify regions with elevated residual malaria risk and quantify uncertainty using posterior inference.
