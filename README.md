@@ -10,6 +10,13 @@ Key question:
 
 Which factors influence malaria infection, and which villages exhibit excess risk beyond what observed variables explain?
 
+## Visualizations
+
+<p align="center">
+  <img src="figures/village_effects_mean.png" width="45%" />
+  <img src="figures/village_effects_prob.png" width="45%" />
+</p>
+
 ## Data
 
 The dataset contains observations on 2,035 children across 65 villages in The Gambia, with malaria infection recorded as a binary outcome.
