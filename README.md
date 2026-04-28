@@ -89,7 +89,6 @@ X_i: covariates (age, bed net use, treatment status, vegetation index, health ce
 ## Repository Structure
 
 malaria-risk-bayesian-model/
-
 ├── data/
 ├── src/
 │   ├── data_prep.py
@@ -97,11 +96,9 @@ malaria-risk-bayesian-model/
 │   ├── bayesian_random_effects.py
 │   ├── visualization.py
 │   └── run_analysis.py
-│
 ├── notebooks/
 ├── figures/
 ├── results/
-│
 ├── requirements.txt
 └── README.txt
 
